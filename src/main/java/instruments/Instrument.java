@@ -61,4 +61,8 @@ public abstract class Instrument implements IPlay {
     public String play(String playing){
         return "playing " + playing + " sounds";
     }
+
+    public double calculateMarkup(){
+        return this.salePrice - this.costPrice;
+    }
 }

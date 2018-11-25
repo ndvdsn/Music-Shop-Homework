@@ -1,8 +1,9 @@
 package instruments;
 
 import behaviours.IPlay;
+import behaviours.ISell;
 
-public class Trumpet extends Instrument implements IPlay {
+public class Trumpet extends Instrument implements IPlay, ISell {
 
     private String make;
     private String model;
